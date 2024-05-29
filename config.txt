@@ -1,0 +1,48 @@
+[Generelt]
+startkapital = 100000
+
+[Energikilder]
+årlig_udgift = 2500
+opstartsudgift = 5000
+opstarts_co2 = 100
+løbende_co2 = 50
+
+[Produktionsmetoder]
+årlig_udgift = 12000
+opstartsudgift = 30000
+opstarts_co2 = 500
+løbende_co2 = 200
+indtjening = 150000
+
+[Materialevalg]
+årlig_udgift = 5000
+opstartsudgift = 10000
+opstarts_co2 = 200
+løbende_co2 = 100
+indtjening = 50000
+
+[Transportmetoder]
+årlig_udgift = 10000
+opstartsudgift = 20000
+opstarts_co2 = 300
+løbende_co2 = 150
+
+[Affaldshåndtering]
+årlig_udgift = 2000
+opstartsudgift = 5000
+opstarts_co2 = 50
+løbende_co2 = 20
+
+[Udstyrsopdatering]
+årlig_udgift = 1000
+opstartsudgift = 5000
+opstarts_co2 = 100
+løbende_co2 = 50
+co2_reduktion = 30
+
+[CO2-Reducerende tiltag]
+årlig_udgift = 1500
+opstartsudgift = 3000
+opstarts_co2 = 20
+løbende_co2 = 10
+co2_reduktion = 100

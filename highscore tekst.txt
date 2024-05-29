@@ -1,0 +1,5 @@
+def gem_highscore(highscore_df, highscore_path, navn, kapital_aar1, kapital_aar10, co2_aar1, co2_aar10):
+    score = (kapital_aar1 / 10000) + (kapital_aar10 / 10000) + (0 - co2_aar1) + (0 - co2_aar10)
+    ny_highscore = pd.DataFrame({'Navn': [navn], 'Kapital_år1': [kapital_aar1], 'Kapital_år10': [kapital_aar10], 'CO2_år1': [co2_aar1], 'CO2_år10': [co2_aar10], 'Score': [score]})
+    highscore_df = pd.concat([highscore_df, ny_highscore], ignore_index=True)
+    highscore_df.to_csv(highscore_path, index=False)

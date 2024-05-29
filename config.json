@@ -1,0 +1,61 @@
+{
+    "startkapital": 100000,
+    "grundvaerdier": {
+        "Energikilder": {
+            "Opstartsudgift": 50000,
+            "ÅrligUdgift": 2500,
+            "OpstartsCO2": 1000,
+            "LøbendeCO2": 10,
+            "Indtjening": 0,
+            "CO2Reduktion": 0
+        },
+        "Produktionsmetoder": {
+            "Opstartsudgift": 60000,
+            "ÅrligUdgift": 12000,
+            "OpstartsCO2": 2000,
+            "LøbendeCO2": 30,
+            "Indtjening": 50000,
+            "CO2Reduktion": 0
+        },
+        "Materialevalg": {
+            "Opstartsudgift": 20000,
+            "ÅrligUdgift": 3000,
+            "OpstartsCO2": 500,
+            "LøbendeCO2": 5,
+            "Indtjening": 20000,
+            "CO2Reduktion": 0
+        },
+        "Transportmetoder": {
+            "Opstartsudgift": 40000,
+            "ÅrligUdgift": 8000,
+            "OpstartsCO2": 1500,
+            "LøbendeCO2": 50,
+            "Indtjening": 0,
+            "CO2Reduktion": 0
+        },
+        "Affaldshåndtering": {
+            "Opstartsudgift": 10000,
+            "ÅrligUdgift": 2000,
+            "OpstartsCO2": 200,
+            "LøbendeCO2": 2,
+            "Indtjening": 0,
+            "CO2Reduktion": 0
+        },
+        "Udstyrsopdatering": {
+            "Opstartsudgift": 50000,
+            "ÅrligUdgift": 5000,
+            "OpstartsCO2": 1000,
+            "LøbendeCO2": 10,
+            "Indtjening": 20000,
+            "CO2Reduktion": 50
+        },
+        "CO2-Reducerende tiltag": {
+            "Opstartsudgift": 20000,
+            "ÅrligUdgift": 3000,
+            "OpstartsCO2": 0,
+            "LøbendeCO2": 0,
+            "Indtjening": 0,
+            "CO2Reduktion": 100
+        }
+    }
+}

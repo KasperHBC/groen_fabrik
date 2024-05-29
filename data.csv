@@ -1,0 +1,27 @@
+Kategori,Valg,Opstartsudgift,ÅrligUdgift,OpstartsCO2,LøbendeCO2,Billede,Indtjening,CO2Reduktion
+Energikilder,Solenergi,0,5000,100,10,solenergi.jpg,0,0
+Energikilder,Kul,0,40000,150,50,kul.jpg,0,0
+Energikilder,Vindenergi,0,20000,200,15,vindenergi.jpg,0,0
+Energikilder,Geotermisk,0,10000,250,5,geotermisk.jpg,0,0
+Produktionsmetoder,Manuel produktion,100000,360000,50,50,manuel_produktion.jpg,500000,0
+Produktionsmetoder,Automatiseret produktion,500000,240000,300,100,automatiseret_produktion.jpg,1500000,0
+Produktionsmetoder,3D-printning,300000,300000,200,20,3d_printning.jpg,800000,0
+Produktionsmetoder,Biofabrik,600000,200000,250,10,biofabrik.jpg,1000000,0
+Materialevalg,Genbrugsmaterialer,200000,120000,100,5,genbrugsmaterialer.jpg,500000,0
+Materialevalg,Nye materialer,100000,360000,150,100,nye_materialer.jpg,200000,0
+Materialevalg,Kompositmaterialer,250000,150000,120,20,kompositmaterialer.jpg,300000,0
+Materialevalg,Bioplastik,300000,180000,140,15,bioplastik.jpg,400000,0
+Transportmetoder,Elektriske køretøjer,500000,100000,250,40,elektriske_køretøjer.jpg,50000,0
+Transportmetoder,Diesel lastbiler,200000,300000,150,80,diesel_lastbiler.jpg,100000,0
+Transportmetoder,Tog,400000,200000,200,160,tog.jpg,200000,0
+Transportmetoder,Fly,1000000,500000,500,320,fly.jpg,400000,0
+Affaldshåndtering,2 inddeling,100000,15000,0,0,affaldshåndtering1.jpg,0,5
+Affaldshåndtering,4 inddelinger,200000,20000,0,0,affaldshåndtering4.jpg,0,10
+Affaldshåndtering,6 inddelinger,300000,25000,0,0,affaldshåndtering6.jpg,0,20
+Affaldshåndtering,8 inddelinger,400000,30000,0,0,affaldshåndtering8.jpg,0,40
+Udstyrsopdatering,Ny maskine,500000,0,200,0,ny_maskine.jpg,75000,40
+Udstyrsopdatering,Softwareopgradering,200000,0,100,0,software_opgradering.jpg,50000,20
+Udstyrsopdatering,Effektiv belysning,100000,0,50,0,effektiv_belysning.jpg,35000,10
+CO2-Reducerende tiltag,Plante træer,50000,10000,0,0,plante_træer.jpg,0,50
+CO2-Reducerende tiltag,Solceller på taget,200000,20000,200,0,solceller_taget.jpg,0,100
+CO2-Reducerende tiltag,Energibesparelser,150000,150000,50,0,energibesparelser.jpg,0,75

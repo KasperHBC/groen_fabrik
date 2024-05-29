@@ -1,0 +1,27 @@
+Kategori,Valg,OpstartsudgiftVægt,ÅrligUdgiftVægt,OpstartsCO2Vægt,LøbendeCO2Vægt,IndtjeningVægt,CO2ReduktionVægt,Billede
+Energikilder,Solenergi,4,4,1,1,,0,solenergi.jpg
+Energikilder,Kul,2,24,2,6,,0,kul.jpg
+Energikilder,Vindenergi,3,6,1.5,1.5,,0,vindenergi.jpg
+Energikilder,Geotermisk,14,4,0.5,0.1,,0,geotermisk.jpg
+Produktionsmetoder,Manuel produktion,1,3,1,1,4,0,manuel_produktion.jpg
+Produktionsmetoder,Automatiseret produktion,1,2,6,0.5,10,0,automatiseret_produktion.jpg
+Produktionsmetoder,3D-printning,3,2.5,4,0.2,5,0,3d_printning.jpg
+Produktionsmetoder,Biofabrik,4,1.5,5,0.1,6,0,biofabrik.jpg
+Materialevalg,Genbrugsmaterialer,2,2,1,0.5,4,0,genbrugsmaterialer.jpg
+Materialevalg,Nye materialer,1,6,1.5,1,2,0,nye_materialer.jpg
+Materialevalg,Kompositmaterialer,2.5,3,1.2,0.4,3,0,kompositmaterialer.jpg
+Materialevalg,Bioplastik,3,3.5,1.4,0.3,4,0,bioplastik.jpg
+Transportmetoder,Elektriske køretøjer,5,1,2.5,0.1,,0,elektriske_køretøjer.jpg
+Transportmetoder,Diesel lastbiler,2,3,1.5,2,,0,diesel_lastbiler.jpg
+Transportmetoder,Tog,4,2,2,0.5,,0,tog.jpg
+Transportmetoder,Fly,10,5,5,3,,0,fly.jpg
+Affaldshåndtering,1 inddeling,1,1,1,0.5,,0,affaldshåndtering1.jpg
+Affaldshåndtering,4 inddelinger,2,2,1,0.25,,0,affaldshåndtering4.jpg
+Affaldshåndtering,6 inddelinger,3,3,1.5,0.1,,0,affaldshåndtering6.jpg
+Affaldshåndtering,8 inddelinger,4,4,2,0.05,,0,affaldshåndtering8.jpg
+Udstyrsopdatering,Ny maskine,10,5,2,0.2,5,0,ny_maskine.jpg
+Udstyrsopdatering,Softwareopgradering,4,1,1,0.1,2,0,software_opgradering.jpg
+Udstyrsopdatering,Effektiv belysning,2,0.5,0.5,0.04,1,0,effektiv_belysning.jpg
+CO2-Reducerende tiltag,Plante træer,1,1,0.2,0.1,,10,plante_traeer.jpg
+CO2-Reducerende tiltag,Solceller på taget,1,1,0.2,0.1,,10,solceller_taget.jpg
+CO2-Reducerende tiltag,Energibesparelser,1,1,0.2,0.1,,10,energibesparelser.jpg
