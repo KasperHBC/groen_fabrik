@@ -4,12 +4,20 @@ import numpy as np
 import os
 from helpers import get_dynamic_color, vis_billede, beregn_totaler, vis_valg, vis_resultater, vis_tiltag, gem_highscore, vis_highscore
 
-# Læs highscore data
+# Filstier
 highscore_path = 'highscore.csv'
-if os.path.exists(highscore_path):
-    highscore_df = pd.read_csv(highscore_path)
-else:
-    highscore_df = pd.DataFrame(columns=['Navn', 'Kapital_år1', 'Kapital_år10', 'CO2_år1', 'CO2_år10', 'Score'])
+
+# Funktion til at initialisere highscore-filen
+def init_highscore_file():
+    if not os.path.exists(highscore_path) or os.path.getsize(highscore_path) == 0:
+        highscore_df = pd.DataFrame(columns=['Navn', 'Kapital_år1', 'Kapital_år10', 'CO2_år1', 'CO2_år10', 'Score'])
+        highscore_df.to_csv(highscore_path, index=False)
+
+# Initialiser highscore-filen
+init_highscore_file()
+
+# Læs highscore data
+highscore_df = pd.read_csv(highscore_path)
 
 # Funktion til at navigere mellem sider
 def navigate_to(page):
