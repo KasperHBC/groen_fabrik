@@ -14,6 +14,7 @@ def get_dynamic_color(value, values, lower_is_better=True):
     return f'rgb({r},{g},{b})'
 
 def vis_billede(billede_sti, caption):
+    billede_sti = os.path.join('Billeder', billede_sti)
     if os.path.exists(billede_sti):
         st.image(billede_sti, caption=caption)
     else:
@@ -106,7 +107,6 @@ def beregn_totaler(energi, produktion, materiale, transport, affald):
 
     return total_opstart, total_årlig, total_opstart_co2, total_løbende_co2, total_indtjening, total_co2_reduktion
 
-
 def vis_resultater(valgt_aar, startkapital, total_opstart, penge_efter_opstart, total_årlig, total_indtjening, total_opstart_co2, total_løbende_co2, total_co2_reduktion, penge, co2):
     st.sidebar.header(f"Resultater for år {valgt_aar}")
     
@@ -160,7 +160,6 @@ def gem_highscore(highscore_df, highscore_path, navn, kapital_aar1, kapital_aar1
     st.write(f"CO2 år 1: 0 - {co2_aar1} = {score_co2_aar1}")
     st.write(f"CO2 år 10: 0 - {co2_aar10} = {score_co2_aar10}")
     st.write(f"Samlet score: {score}")
-
 
 def vis_highscore(st, highscore_df):
     st.dataframe(highscore_df.style.format({"Kapital_år1": "{:,}", "Kapital_år10": "{:,}", "CO2_år1": "{:,}", "CO2_år10": "{:,}", "Score": "{:,.2f}"}))
